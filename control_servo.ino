@@ -2,7 +2,7 @@
 #include <Adafruit_PWMServoDriver.h>
 
 String s;
-// called this way, it uses the default address 0x40
+
 Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver();
 
 #define MIN_PULSE_WIDTH 650
